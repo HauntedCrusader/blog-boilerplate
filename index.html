@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Blog Exemplo</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="mudar-tema-area">
+            <!--Botão do Modo Escuro-->
+            <button id="mudar-tema">
+                <img src="img/icones/sol.png" alt="Modo Escuro">
+            </button>
+        </div>
+        <header>
+            <h1>Blog Exemplo</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="content">
+                <article>
+                    <h2>Post 1</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum.</p>
+                </article>
+                <article>
+                    <h2>Post 2</h2>
+                    <p>Curabitur venenatis eros ac justo consequat, ac scelerisque elit dapibus.</p>
+                </article>
+            </section>
+            <div class="sidebars">
+                <aside class="sidebar">
+                    <h3>Sobre Mim</h3>
+                    <p>Informações sobre o autor do blog.</p>
+                </aside>
+                <aside class="sidebar">
+                    <h3>Contador de Visitas</h3>
+                    <p id="contador">Carregando visitas...</p>
+                </aside>
+                <aside class="sidebar">
+                    <h3>Links Úteis</h3>
+                    <ul>
+                        <li><a href="#">Link 1</a></li>
+                        <li><a href="#">Link 2</a></li>
+                        <li><a href="#">Link 3</a></li>
+                    </ul>
+                </aside>
+                <aside class="sidebar">
+                    <h3>Arquivos</h3>
+                    <ul>
+                        <li><a href="#">Janeiro 2024</a></li>
+                        <li><a href="#">Fevereiro 2024</a></li>
+                        <li><a href="#">Março 2024</a></li>
+                    </ul>
+                </aside>
+            </div>
+        </main>
+        <footer>
+                <p>&copy; 2024 Blog Exemplo. Todos os direitos reservados.</p>
+        </footer>
+        
+        <!--JS-->
+        <script src="js/mudar-tema.js"></script>
+        <script src="js/contador-visitas.js"></script>
+        <script src="js/atualizar-copy.js"></script>
+    </body>
+</html>
